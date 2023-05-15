@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+    >.content {
+        grid-column-start: 2;
+        grid-column-end: 12;
+        margin-top: 70px;
+    }
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 25px;
+
+    @for $i from 1 through 12 {
+        &-span-#{$i} {
+            grid-column: span $i !important;
+        }
+    }
+
+    @for $i from 1 through 12 {
+        &-start-#{$i} {
+            grid-column-start: $i !important;
+        }
+    }
+}

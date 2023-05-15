@@ -1,0 +1,77 @@
+[
+    {
+        "icon": "account-creation.svg",
+        "label": "Account Creation",
+        "path": ""
+    },
+    {
+        "icon": "",
+        "label": "System Dashboard",
+        "path": ""
+    },
+    {
+        "icon": "",
+        "label": "Profile, Manage Contacts, Logout",
+        "path": ""
+    },
+    {
+        "icon": "",
+        "label": "Two-Factor Authentication",
+        "path": ""
+    },
+    {
+        "icon": "",
+        "label": "New User Creation",
+        "path": ""
+    },
+    {
+        "icon": "",
+        "label": "Billing",
+        "path": ""
+    },
+    {
+        "icon": "",
+        "label": "Invalid Credentials Error",
+        "path": ""
+    },
+    {
+        "icon": "",
+        "label": "Searching for Campaigns",
+        "path": ""
+    },
+    {
+        "icon": "",
+        "label": "Create Campaign",
+        "path": ""
+    },
+    {
+        "icon": "",
+        "label": "SMS",
+        "path": ""
+    },
+    {
+        "icon": "",
+        "label": "Creating an Email Campaign on a Blank Screen",
+        "path": ""
+    },
+    {
+        "icon": "",
+        "label": "Body",
+        "path": ""
+    },
+    {
+        "icon": "",
+        "label": "Display",
+        "path": ""
+    },
+    {
+        "icon": "",
+        "label": "Content",
+        "path": ""
+    },
+    {
+        "icon": "",
+        "label": "Images",
+        "path": ""
+    }
+]

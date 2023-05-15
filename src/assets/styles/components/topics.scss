@@ -1,0 +1,46 @@
+.topics {
+    &-heading {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 43px;
+        color: #B1AEAF;
+    }
+
+    &-card-container {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 25px;
+        row-gap: 25px;
+        column-gap: 50px;
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+
+    &-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        height: 248px;
+        grid-column: span 4;
+        background: #F8F8F8;
+        border-radius: 20px;
+
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #4E5EAB;
+        padding: 40px;
+        text-align: center;
+
+        img {
+            height: 50px;
+            width: 50px;
+        }
+
+        h4 {
+            margin: 0;
+        }
+    }
+}

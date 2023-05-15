@@ -6,9 +6,13 @@
 // Components
 @import './components/navigation-bar.scss';
 @import './components/hero.scss';
+@import './components/topics.scss';
 
 // Mixins
 @import './mixins/font.scss';
+
+// Utils
+@import './layout.scss';
 
 body {
   font-family: 'Aileron', sans-serif;

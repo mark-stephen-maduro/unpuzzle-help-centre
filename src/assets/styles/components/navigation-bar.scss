@@ -4,8 +4,6 @@
     position: fixed;
     top: 0;
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
     align-content: center;
 
     .nav-contents {
@@ -19,4 +17,9 @@
 .logo {
     height: 53px;
     width: 190px;
+    cursor: pointer;
+}
+
+.shadow {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px
 }

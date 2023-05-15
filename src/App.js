@@ -1,14 +1,16 @@
-import './assets/styles/App.scss';
-import Navigation from './components/navbar/navigation-bar';
-import Hero from './components/hero';
+import './assets/styles/app.scss';
 
-function App() {
+import Navigation from './components/navbar/navigation-bar';
+import ContentPage from "./modules";
+
+const App = () => {
+
   return (
-    <div className="App">
+    <>
       <Navigation />
-      <Hero />
-    </div>
+      <ContentPage />
+    </>
   );
-}
+};
 
 export default App;
