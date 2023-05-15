@@ -1,0 +1,22 @@
+.nav-container {
+    height: 100px;
+    background-color: $navigation-bg;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-content: center;
+
+    .nav-contents {
+        grid-column: 2 / span 10;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.logo {
+    height: 53px;
+    width: 190px;
+}

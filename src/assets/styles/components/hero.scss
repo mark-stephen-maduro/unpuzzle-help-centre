@@ -1,0 +1,58 @@
+.hero {
+    height: 946px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: #f7f7f7;
+    background-image: url('../../images/hero-bg.png');
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Aileron', sans-serif;
+
+    h1 {
+        font-size: 64px;
+        color: $secondary-color;
+        font-weight: 700;
+        line-height: 77px;
+        margin: 0;
+    }
+
+    h2 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 43px;
+        color: #404042;
+        margin: 0;
+    }
+
+    input[type="text"] {
+        background-image: url('../../images/search-icon.png');
+        background-repeat: no-repeat;
+        background-position: 10% center;
+
+        font-family: 'Aileron', sans-serif;
+        border-radius: 50px;
+        height: 88px;
+        width: 540px;
+        border: none;
+        margin-top: 42px;
+        padding: 0 50px;
+        text-indent: 45px;
+
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+
+        &::placeholder {
+            color: #B1AEAF;
+        }
+
+        &:focus-visible {
+            outline: 2px solid $secondary-color;
+        }
+    }
+}

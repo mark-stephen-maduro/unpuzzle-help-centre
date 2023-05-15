@@ -1,29 +1,24 @@
+@import url('https://fonts.cdnfonts.com/css/aileron');
+
+// Variables
 @import './variables.scss';
-.App {
-  text-align: center;
+
+// Components
+@import './components/navigation-bar.scss';
+@import './components/hero.scss';
+
+// Mixins
+@import './mixins/font.scss';
+
+body {
+  font-family: 'Aileron', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-.App-header {
-  background-color: $primary-color;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-.App-link {
-  color: $secondary-color;
-}
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }

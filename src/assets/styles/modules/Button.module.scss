@@ -1,13 +1,19 @@
 .btn {
-    width: 200px;
-    height: 50px;
-    font-size: 20px;
-    border-radius: 5px;
-    margin-top: 20px;
-    background: rgb(199, 196, 23);
+    width: 232px;
+    height: 63px;
+    background: #F36C44;
+    border-radius: 50px;
     border: none;
 
+    font-family: 'Aileron', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+
+    cursor: pointer;
+
     &:hover {
-        background: rgb(236, 233, 36);
+        background: #ff774d;
     }
 }
