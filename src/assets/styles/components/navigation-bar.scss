@@ -4,6 +4,7 @@
     height: 100px;
     width: 100%;
     background-color: $navigation-bg;
+    z-index: 2;
 
     .nav-contents {
         display: flex;
