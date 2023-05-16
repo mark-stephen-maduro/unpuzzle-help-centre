@@ -6,7 +6,7 @@ const Cards = () => {
             {
                 topics.map((card, index) =>
                     <div className="topics-card" key={index}>
-                        <img src={process.env.PUBLIC_URL + '/images/' + card.icon} alt="" />
+                        <img src={process.env.PUBLIC_URL + '/images/topics/' + card.icon} alt="" />
                         <h4>{card.label}</h4>
                     </div>
                 )

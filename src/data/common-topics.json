@@ -5,73 +5,133 @@
         "path": ""
     },
     {
-        "icon": "",
+        "icon": "system-dashboard.svg",
         "label": "System Dashboard",
         "path": ""
     },
     {
-        "icon": "",
+        "icon": "profile-manage-contacts-logout.svg",
         "label": "Profile, Manage Contacts, Logout",
         "path": ""
     },
     {
-        "icon": "",
+        "icon": "two-factor-auth.svg",
         "label": "Two-Factor Authentication",
         "path": ""
     },
     {
-        "icon": "",
+        "icon": "new-user.svg",
         "label": "New User Creation",
         "path": ""
     },
     {
-        "icon": "",
+        "icon": "billing.svg",
         "label": "Billing",
         "path": ""
     },
     {
-        "icon": "",
+        "icon": "invalid-credential.svg",
         "label": "Invalid Credentials Error",
         "path": ""
     },
     {
-        "icon": "",
+        "icon": "searching-campaigns.svg",
         "label": "Searching for Campaigns",
         "path": ""
     },
     {
-        "icon": "",
+        "icon": "create-campaign.svg",
         "label": "Create Campaign",
         "path": ""
     },
     {
-        "icon": "",
+        "icon": "sms.svg",
         "label": "SMS",
         "path": ""
     },
     {
-        "icon": "",
+        "icon": "creating-email-campaign.svg",
         "label": "Creating an Email Campaign on a Blank Screen",
         "path": ""
     },
     {
-        "icon": "",
+        "icon": "body.svg",
         "label": "Body",
         "path": ""
     },
     {
-        "icon": "",
+        "icon": "display.svg",
         "label": "Display",
         "path": ""
     },
     {
-        "icon": "",
+        "icon": "content.svg",
         "label": "Content",
         "path": ""
     },
     {
-        "icon": "",
+        "icon": "image.svg",
         "label": "Images",
+        "path": ""
+    },
+    {
+        "icon": "predownloaded-templates.svg",
+        "label": "Pre-downloaded Templates",
+        "path": ""
+    },
+    {
+        "icon": "blocks.svg",
+        "label": "Blocks",
+        "path": ""
+    },
+    {
+        "icon": "uploads.svg",
+        "label": "Uploads",
+        "path": ""
+    },
+    {
+        "icon": "setting-up-font.svg",
+        "label": "Setting up Font and Theme Colors",
+        "path": ""
+    },
+    {
+        "icon": "sms-campaign.svg",
+        "label": "SMS Campaign",
+        "path": ""
+    },
+    {
+        "icon": "live-chat.svg",
+        "label": "Live Chat",
+        "path": ""
+    },
+    {
+        "icon": "merge-tags.svg",
+        "label": "Merge Tags",
+        "path": ""
+    },
+    {
+        "icon": "live-campaign.svg",
+        "label": "Live Campaign",
+        "path": ""
+    },
+    {
+        "icon": "engagement-automation.svg",
+        "label": "Engagement Automation",
+        "path": ""
+    },
+    {
+        "icon": "sent-emails.svg",
+        "label": "Sent Emails",
+        "path": ""
+    },
+    {
+        "icon": "draft-campaign.svg",
+        "label": "Draft Campaign",
+        "path": ""
+    },
+    {
+        "icon": "create-audience.svg",
+        "label": "Create Audience",
         "path": ""
     }
 ]

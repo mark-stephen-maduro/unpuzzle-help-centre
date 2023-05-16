@@ -1,16 +1,18 @@
 .nav-container {
-    height: 100px;
-    background-color: $navigation-bg;
     position: fixed;
     top: 0;
+    height: 100px;
     width: 100%;
-    align-content: center;
+    background-color: $navigation-bg;
 
     .nav-contents {
-        grid-column: 2 / span 10;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        max-width: $max-width;
+        margin: 0 auto;
+        height: 100%;
+        padding: 0 25px;
     }
 }
 
@@ -21,5 +23,5 @@
 }
 
 .shadow {
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px
+    box-shadow: rgba(60, 64, 67, 0.1) 0px 1px 2px 0px
 }
