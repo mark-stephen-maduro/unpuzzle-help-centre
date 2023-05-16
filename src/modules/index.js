@@ -14,9 +14,9 @@ const ContentPage = () => {
         <main className="App">
             <Router>
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/unpuzzle-help-centre" element={<Home />} />
                     {/* Common Help Topics */}
-                    <Route path="/topic/account-creation" element={<AccountCreationTopic />} />
+                    <Route path="/unpuzzle-help-centre/topic/account-creation" element={<AccountCreationTopic />} />
                     {/* 404 Page */}
                     <Route path='*' element={<NotFound />}/>
                 </Routes>
