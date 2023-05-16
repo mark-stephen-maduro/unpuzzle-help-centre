@@ -12,7 +12,7 @@ const ContentPage = () => {
         <main className="App">
             <Router>
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/unpuzzle-help-centre" element={<Home />} />
                     <Route path='*' element={<NotFound />}/>
                 </Routes>
             </Router>
