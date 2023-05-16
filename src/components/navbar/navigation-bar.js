@@ -4,7 +4,6 @@ import logo from '../../assets/images/logo.svg'
 
 const NavBar = () => {
     React.useEffect(() => {
-        console.log('[navigation-bar: test log]');
         window.addEventListener('scroll', (e) => {
             const nav = document.querySelector('.nav');
             if (window.pageYOffset > 0) {
@@ -19,7 +18,7 @@ const NavBar = () => {
         <header className="nav-container nav animate__animated animate__fadeInDown animate__faster">
             <div className="nav-contents">
                 <a href="/">
-                    <img className="logo" src={logo} alt="unpuzzle logo" tabIndex={0} />
+                    <img className="logo" src={logo} alt="unpuzzle logo" />
                 </a>
                 <Button>Ask a Question</Button>
             </div>

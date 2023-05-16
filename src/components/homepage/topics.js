@@ -1,18 +1,15 @@
+import GridLayout from '../layout/grid-layout';
 import Cards from './cards'
+import '../../assets/styles/components/topics.scss';
 
 const Topics = () => {
     return (
-        <div className="container">
-            <div className="content">
-                <div className="wrapper">
-                    <h3 className="topics-heading">Common Help Topics</h3>
-
-                    <div className="topics-card-container">
-                        <Cards />
-                    </div>
-                </div>
+        <GridLayout>
+            <h3 className="topics-heading">Common Help Topics</h3>
+            <div className="topics-card-container">
+                <Cards />
             </div>
-        </div>
+        </GridLayout>
     );
 }
 

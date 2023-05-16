@@ -6,13 +6,18 @@ import { BrowserRouter as Router } from "react-router-dom/dist";
 
 import Home from './home';
 import NotFound from './404';
+// Topics
+import AccountCreationTopic from "./topics/account-creation";
 
 const ContentPage = () => {
     return (
         <main className="App">
             <Router>
                 <Routes>
-                    <Route path="/unpuzzle-help-centre" element={<Home />} />
+                    <Route path="/" element={<Home />} />
+                    {/* Common Help Topics */}
+                    <Route path="/topic/account-creation" element={<AccountCreationTopic />} />
+                    {/* 404 Page */}
                     <Route path='*' element={<NotFound />}/>
                 </Routes>
             </Router>

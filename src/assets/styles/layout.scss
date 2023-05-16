@@ -14,15 +14,21 @@
     grid-template-columns: repeat(12, 1fr);
     gap: 25px;
 
-    @for $i from 1 through 12 {
+    @for $i from 1 through 20 {
         &-span-#{$i} {
             grid-column: span $i !important;
         }
     }
 
-    @for $i from 1 through 12 {
+    @for $i from 1 through 20 {
         &-start-#{$i} {
             grid-column-start: $i !important;
+        }
+    }
+
+    @for $i from 1 through 20 {
+        &-end-#{$i} {
+            grid-column-end: $i !important;
         }
     }
 }
@@ -33,6 +39,24 @@
     justify-content: center;
     margin: 0 auto;
     max-width: $max-width;
+}
+
+.topic {
+    &-layout {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    .content {
+        grid-column-start: 2;
+        grid-column: 6;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: $max-width;
+    }
 }
 
 @media(max-width: $mobile) {

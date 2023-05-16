@@ -2,7 +2,7 @@
     {
         "icon": "account-creation.svg",
         "label": "Account Creation",
-        "path": ""
+        "path": "/account-creation"
     },
     {
         "icon": "system-dashboard.svg",
