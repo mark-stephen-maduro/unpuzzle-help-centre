@@ -1,6 +1,8 @@
 .hero {
+    text-align: center;
     margin-top: 80px;
     height: 946px;
+    min-height: 450px;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -12,23 +14,6 @@
     align-items: center;
     flex-direction: column;
     font-family: 'Aileron', sans-serif;
-
-    h1 {
-        font-size: 64px;
-        color: $secondary-color;
-        font-weight: 700;
-        line-height: 77px;
-        margin: 0;
-    }
-
-    h2 {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 43px;
-        color: #404042;
-        margin: 0;
-    }
 
     input[type="text"] {
         background-image: url('../../images/search-icon.png');
@@ -54,6 +39,38 @@
 
         &:focus-visible {
             outline: 2px solid $secondary-color;
+        }
+    }
+}
+
+@media(max-width: $mobile) {
+    .hero {
+        height: calc(100vh - 650px);
+        background-position: 25%;
+        padding: 0;
+
+        input[type="text"] {
+            width: calc(100% - 35%);
+            height: 58px;
+            font-size: 18px;
+            text-indent: 35px;
+        }
+    }
+}
+
+@media(max-width: $smallMobile) {
+    .hero {
+        height: calc(100vh - 250px);
+        background-position: 25%;
+        padding: 0;
+        
+        input[type="text"] {
+            width: 230px;
+            height: 48px;
+            font-size: 18px;
+            margin-top: 32px;
+            text-indent: 25px;
+            font-size: 16px;
         }
     }
 }

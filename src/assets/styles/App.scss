@@ -15,6 +15,9 @@
 // Utils
 @import './layout.scss';
 
+// Typography
+@import './typography.scss';
+
 body {
   font-family: 'Aileron', sans-serif;
   margin: 0;
@@ -26,4 +29,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media(max-width: $mobile) {
+  #root {
+    overflow: hidden;
+  }
 }

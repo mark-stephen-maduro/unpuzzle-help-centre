@@ -1,6 +1,35 @@
+// Theme colors
 $primary-color: #F36C44;
 $secondary-color: #4E5EAB;
 
+// Navigation
 $navigation-bg: #fff;
 
+// container max width
 $max-width: 1440px;
+
+// spacing
+$gutter-desktop: 0 8%;
+$gutter-mobile: 0 15px;
+
+// font sizes
+$h1-desktop: 64px;
+$h1-tablet: 54px;
+$h1-mobile: 44px;
+$h1-xsMobile: 34px;
+
+$h2-desktop: 36px;
+$h2-tablet: 30px;
+$h2-mobile: 24px;
+$h2-xsMobile: 18px;
+
+$h4-desktop: 24px;
+$h4-tablet: 24px;
+$h4-mobile: 18px;
+$h4-xsMobile: 18px;
+
+// screen sizes
+$smallDesktop: 1199px;
+$tablet: 1023px;
+$mobile: 767px;
+$smallMobile: 375px;

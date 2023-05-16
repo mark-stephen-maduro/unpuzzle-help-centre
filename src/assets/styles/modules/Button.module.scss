@@ -1,3 +1,5 @@
+@import '../variables.scss';
+
 .btn {
     height: 63px;
     background: #F36C44;
@@ -15,5 +17,21 @@
 
     &:hover {
         background: #ff774d;
+    }
+}
+
+@media(max-width: $mobile) {
+    .btn {
+        font-size: 18px;
+        padding: 0 25px;
+        height: 55px;
+    }
+}
+
+@media(max-width: $smallMobile) {
+    .btn {
+        font-size: 16px;
+        padding: 0 15px;
+        height: 45px;
     }
 }

@@ -1,0 +1,70 @@
+h1 {
+    font-size: $h1-desktop;
+    color: $secondary-color;
+    font-weight: 700;
+    line-height: 77px;
+    margin: 0;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: $h2-desktop;
+    line-height: 43px;
+    color: #404042;
+    margin: 0;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: $h2-desktop;
+    line-height: 43px;
+    color: #404042;
+    margin: 0;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: $h4-desktop;
+    line-height: 29px;
+}
+
+
+
+@media(max-width: $mobile) {
+    h1 {
+        font-size: $h1-mobile;
+        line-height: 1.2;
+    }
+
+    h2,
+    h3 {
+        font-size: $h2-mobile;
+        line-height: 1.2;
+    }
+
+    h4 {
+        font-size: $h4-mobile;
+        line-height: 1.1;
+    }
+}
+
+@media(max-width: $smallMobile) {
+
+    h1 {
+        font-size: $h1-xsMobile;
+        line-height: 1.2;
+    }
+
+    h2,
+    h3 {
+        font-size: $h2-xsMobile;
+        line-height: 1.2;
+    }
+
+    h4 {
+        font-size: $h4-xsMobile;
+        line-height: 1.1;
+    }
+}

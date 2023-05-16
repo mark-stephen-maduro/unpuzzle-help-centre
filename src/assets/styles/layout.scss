@@ -34,3 +34,14 @@
     margin: 0 auto;
     max-width: $max-width;
 }
+
+@media(max-width: $mobile) {
+    .container {
+        >.content {
+            grid-column-start: 1;
+            grid-column-end: 14;
+            padding: $gutter-mobile;
+            margin-top: 30px;
+        }
+    }    
+}

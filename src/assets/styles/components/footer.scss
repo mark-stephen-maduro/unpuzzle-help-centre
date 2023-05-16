@@ -12,3 +12,12 @@
         color: #fff;
     }
 }
+
+@media(max-width: $mobile) {
+    .footer {
+        height: 80px;
+        p {
+            font-size: 18px;
+        }
+    }
+}
