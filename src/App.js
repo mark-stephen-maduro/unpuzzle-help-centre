@@ -1,4 +1,5 @@
 import './assets/styles/app.scss';
+import 'animate.css';
 import Footer from './components/footer/footer';
 
 import Navigation from './components/navbar/navigation-bar';

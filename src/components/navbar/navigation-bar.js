@@ -16,7 +16,7 @@ const NavBar = () => {
     }, []);
 
     return (
-        <header className="nav-container nav">
+        <header className="nav-container nav animate__animated animate__fadeInDown animate__faster">
             <div className="nav-contents">
                 <a href="/">
                     <img className="logo" src={logo} alt="unpuzzle logo" tabIndex={0} />
