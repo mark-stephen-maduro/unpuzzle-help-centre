@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/unpuzzle-help-centre/static/css/main.fca16b76.css",
-    "main.js": "/unpuzzle-help-centre/static/js/main.0e44172e.js",
+    "main.css": "/unpuzzle-help-centre/static/css/main.424f4532.css",
+    "main.js": "/unpuzzle-help-centre/static/js/main.db8181b1.js",
     "static/js/787.690d59ef.chunk.js": "/unpuzzle-help-centre/static/js/787.690d59ef.chunk.js",
     "static/media/hero-bg.png": "/unpuzzle-help-centre/static/media/hero-bg.4faf1bdb926d71e219ac.png",
+    "static/media/account-creation-password-link.png": "/unpuzzle-help-centre/static/media/account-creation-password-link.60d80af669319c32d65f.png",
+    "static/media/account-creation-sign-in.png": "/unpuzzle-help-centre/static/media/account-creation-sign-in.262741c732c98a1af9f2.png",
     "static/media/logo.svg": "/unpuzzle-help-centre/static/media/logo.7b5001a47d4c350f87bfa668c9ef9a87.svg",
     "index.html": "/unpuzzle-help-centre/index.html",
-    "main.fca16b76.css.map": "/unpuzzle-help-centre/static/css/main.fca16b76.css.map",
-    "main.0e44172e.js.map": "/unpuzzle-help-centre/static/js/main.0e44172e.js.map",
+    "main.424f4532.css.map": "/unpuzzle-help-centre/static/css/main.424f4532.css.map",
+    "main.db8181b1.js.map": "/unpuzzle-help-centre/static/js/main.db8181b1.js.map",
     "787.690d59ef.chunk.js.map": "/unpuzzle-help-centre/static/js/787.690d59ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fca16b76.css",
-    "static/js/main.0e44172e.js"
+    "static/css/main.424f4532.css",
+    "static/js/main.db8181b1.js"
   ]
 }
