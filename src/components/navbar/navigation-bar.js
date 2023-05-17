@@ -17,7 +17,7 @@ const NavBar = () => {
     return (
         <header className="nav-container nav animate__animated animate__fadeInDown animate__faster">
             <div className="nav-contents">
-                <a href="/">
+                <a href="/unpuzzle-help-centre/">
                     <img className="logo" src={logo} alt="unpuzzle logo" />
                 </a>
                 <Button>Ask a Question</Button>
