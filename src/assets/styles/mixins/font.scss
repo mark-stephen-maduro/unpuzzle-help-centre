@@ -6,3 +6,35 @@
         font-style: normal;
     }
 }
+
+@mixin h1-style() {
+    font-size: $h1-desktop;
+    color: $secondary-color;
+    font-weight: 700;
+    line-height: 77px;
+    margin: 0;
+}
+
+@mixin h2-style() {
+    font-style: normal;
+    font-weight: 700;
+    font-size: $h2-desktop;
+    line-height: 43px;
+    color: #404042;
+    margin: 0;
+}
+
+@mixin h3-style() {
+    font-style: normal;
+    font-weight: 700;
+    font-size: $h2-desktop;
+    line-height: 43px;
+    color: #404042;
+    margin: 0;
+}
+
+@mixin h4-style() {
+    font-weight: 700;
+    font-size: $h4-desktop;
+    line-height: 29px;
+}

@@ -1,0 +1,51 @@
+@mixin margin-matrix($margins) {
+    @each $classes in $margins {
+        $index: index(($margins), ($classes));
+
+        @for $i from 0 through 100 {
+            @if $classes ==nth($margins, $index) {
+                .#{$classes}-#{$i} {
+                    @if $classes == 'margin-x' {
+                        margin-left: #{$i}px;
+                        margin-right: #{$i}px;
+                    } @else if $classes == 'margin-y' {
+                        margin-top: #{$i}px;
+                        margin-bottom: #{$i}px;
+                    } @else if $classes == 'margin-top' {
+                        margin-top: #{$i}px;
+                    } @else if $classes == 'margin-left' {
+                        margin-left: #{$i}px;
+                    } @else if $classes == 'margin-right' {
+                        margin-right: #{$i}px;
+                    } @else if $classes == 'margin-bottom' {
+                        margin-bottom: #{$i}px;
+                    } 
+                }
+            }
+        }
+
+        @media(max-width: $mobile) {
+            @for $i from 0 through 100 {
+                @if $classes ==nth($margins, $index) {
+                    .#{$classes}-mobile-#{$i} {
+                        @if $classes == 'margin-x' {
+                            margin-left: #{$i}px;
+                            margin-right: #{$i}px;
+                        } @else if $classes == 'margin-y' {
+                            margin-top: #{$i}px;
+                            margin-bottom: #{$i}px;
+                        } @else if $classes == 'margin-top' {
+                            margin-top: #{$i}px;
+                        } @else if $classes == 'margin-left' {
+                            margin-left: #{$i}px;
+                        } @else if $classes == 'margin-right' {
+                            margin-right: #{$i}px;
+                        } @else if $classes == 'margin-bottom' {
+                            margin-bottom: #{$i}px;
+                        } 
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,35 +1,19 @@
 @import url('https://fonts.cdnfonts.com/css/aileron');
 
 h1 {
-    font-size: $h1-desktop;
-    color: $secondary-color;
-    font-weight: 700;
-    line-height: 77px;
-    margin: 0;
+    @include h1-style();
 }
 
 h2 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: $h2-desktop;
-    line-height: 43px;
-    color: #404042;
-    margin: 0;
+    @include h2-style();
 }
 
 h3 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: $h2-desktop;
-    line-height: 43px;
-    color: #404042;
-    margin: 0;
+    @include h3-style();
 }
 
 h4 {
-    font-weight: 700;
-    font-size: $h4-desktop;
-    line-height: 29px;
+    @include h4-style();
 }
 
 .text-primary {
@@ -38,6 +22,10 @@ h4 {
 
 .text-secondary {
     color: $text-secondary;
+}
+
+.text-dark {
+    color: $text-dark;
 }
 
 p {
@@ -64,6 +52,11 @@ p {
     h4 {
         font-size: $h4-mobile;
         line-height: 1.1;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 28px;
     }
 }
 

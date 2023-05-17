@@ -1,8 +1,11 @@
-const TopicLayout = ({ children }) => {
+const TopicLayout = ({ content, sidebar }) => {
     return (
-        <div className="topic-layout">
-            <div className="content">
-                {children}
+        <div className="topics-layout">
+            <div className="card">
+                {content}
+            </div>
+            <div className="sidebar">
+                {sidebar}
             </div>
         </div>
     )

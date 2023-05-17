@@ -48,6 +48,84 @@
             color: #4E5EAB;
         }
     }
+
+    &-counter-section {
+        white-space: normal;
+        box-sizing: inherit;
+
+        &::before {
+            content: counter(count);
+            counter-increment: count;
+            display: inline-flex;
+            width: 50px;
+            height: 50px;
+            background: #F36C44;
+            border-radius: 50px;
+            vertical-align: top;
+            box-sizing: inherit;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            margin-right: 15px;
+            margin-top: 15px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+        }
+
+        p {
+            display: inline-block;
+            max-width: 90%;
+            white-space: normal;
+            box-sizing: inherit;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+
+    &-layout {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        margin-top: 90px;
+        gap: 120px;
+
+        .card {
+            counter-reset: count;
+            grid-column: span 6;
+            background: #FFFFFF;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 30px;
+            padding: 7%;
+        }
+
+        .sidebar {
+            grid-column: span 4;
+            padding: 10% 0;
+        }
+    }
+}
+
+@media(max-width: $smallDesktop) {
+    .topics {
+        &-layout {
+            gap: 10%;
+        }
+    }
+}
+
+@media(max-width: $tablet) {
+    .topics {
+        &-layout {
+            gap: 5%;
+
+            .card {
+                padding: 7%;
+            }
+        }
+    }
 }
 
 @media(max-width: $mobile) {
@@ -67,6 +145,19 @@
             height: 150px;
             padding: 15px;
             gap: 20px;
+        }
+
+        &-layout {
+            gap: 0;
+            margin-top: 50px;
+
+            .card {
+                grid-column: span 12;
+            }
+
+            .sidebar {
+                grid-column: span 12;
+            }
         }
     }
 }
