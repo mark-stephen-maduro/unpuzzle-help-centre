@@ -10,6 +10,22 @@
 
     &-heading {
         color: #B1AEAF;
+
+        &-bg {
+            display: flex;
+            align-items: center;
+            width: auto;
+            background-color: #5AC6D0;
+            height: 30px;
+            padding: 10px 0;
+            padding-inline-start: 25px;
+            border-radius: 10px;
+            margin-top: 50px;
+
+            p {
+                color: #fff;
+            }
+        }
     }
 
     &-card-container {
@@ -53,6 +69,13 @@
         white-space: normal;
         box-sizing: inherit;
 
+        &.hidden {
+            visibility: hidden;
+            height: 0;
+            margin: 0;
+            padding: 0;
+        }
+
         &::before {
             content: counter(count);
             counter-increment: count;
@@ -67,7 +90,7 @@
             align-items: center;
             color: #fff;
             margin-right: 15px;
-            margin-top: 15px;
+            margin-top: 30px;
             font-weight: 700;
             font-size: 24px;
             line-height: 29px;
@@ -78,6 +101,7 @@
             max-width: 90%;
             white-space: normal;
             box-sizing: inherit;
+            margin: 40px 0 0;
         }
 
         img {
@@ -99,17 +123,94 @@
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             border-radius: 30px;
             padding: 7%;
+            height: fit-content;
+
+            img {
+                display: block;
+                margin: 0 auto;
+                width: 100%;
+            }
+
+            .info {
+                background: #5AC6D0;
+                border-radius: 10px;
+                font-size: 16px;
+                line-height: 22px;
+                font-weight: 700;
+                position: relative;
+                color: #404042;
+                padding: 50px 40px;
+                margin-top: 60px;
+
+                .ribbon {
+                    position: absolute;
+                    top: -20px;
+                    left: 15px;
+                    background: #F36C44;
+                    border-radius: 10px;
+                    text-transform: uppercase;
+                    color: #fff;
+                    padding: 10px;
+                }
+            }
         }
 
         .sidebar {
             grid-column: span 4;
             padding: 10% 0;
+
+            ul {
+                list-style-type: none;
+                padding: 0;
+                margin-top: 60px;
+
+                li {
+                    background: url('../../images/info.svg') no-repeat left top transparent;
+                    list-style-type: none;
+                    margin: 0 0 30px;
+                    padding: 0px 0px 0px 50px;
+                    vertical-align: middle;
+
+                    p {
+                        display: inline-block;
+                        margin: 0 0 5px;
+                    }
+
+                    a:hover p {
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            .ask-question {
+                margin-top: 50px;
+                text-align: center;
+
+                >*:not(:first-child) {
+                    margin-top: 30px;
+                }
+
+                img {
+                    width: 100%;
+                }
+
+                h2 {
+                    font-size: 30px;
+                    line-height: 36px;
+                }
+            }
         }
     }
 }
 
 @media(max-width: $smallDesktop) {
     .topics {
+        &-counter-section {
+            p {
+                max-width: 80%;
+            }
+        }
+
         &-layout {
             gap: 10%;
         }
@@ -153,10 +254,20 @@
 
             .card {
                 grid-column: span 12;
+                padding-top: 55px;
+                padding-bottom: 55px;
             }
 
             .sidebar {
                 grid-column: span 12;
+
+                ul {
+                    margin-top: 30px;
+
+                    li {
+                        margin: 0 0 15px;
+                    }
+                }
             }
         }
     }
@@ -164,8 +275,28 @@
 
 @media(max-width: 500px) {
     .topics {
+        &-counter-section {
+            &::before {
+                margin-bottom: -30px;
+                font-size: 18px;
+                height: 35px;
+                width: 35px;
+            }
+
+            p {
+                max-width: 100%;
+            }
+        }
+
         &-card {
             grid-column: span 6;
+        }
+
+        &-layout {
+            .card {
+                padding-top: 35px;
+                padding-bottom: 35px;
+            }
         }
     }
 }

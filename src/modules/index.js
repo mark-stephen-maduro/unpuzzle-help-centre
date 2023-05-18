@@ -8,6 +8,9 @@ import Home from './home';
 import NotFound from './404';
 // Topics
 import AccountCreationTopic from "./topics/account-creation";
+import TwoFactorAuthTopic from "./topics/two-factor-auth";
+import InvalidCredentialsTopic from "./topics/invalid-credentials";
+import SystemDashboardTopic from "./topics/system-dashboard";
 
 const ContentPage = () => {
     return (
@@ -17,6 +20,9 @@ const ContentPage = () => {
                     <Route path="/unpuzzle-help-centre" element={<Home />} />
                     {/* Common Help Topics */}
                     <Route path="/unpuzzle-help-centre/topic/account-creation" element={<AccountCreationTopic />} />
+                    <Route path="/unpuzzle-help-centre/topic/two-factor-auth" element={<TwoFactorAuthTopic />} />
+                    <Route path="/unpuzzle-help-centre/topic/invalid-credentials" element={<InvalidCredentialsTopic />} />
+                    <Route path="/unpuzzle-help-centre/topic/system-dashboard" element={<SystemDashboardTopic />} />
                     {/* 404 Page */}
                     <Route path='*' element={<NotFound />}/>
                 </Routes>

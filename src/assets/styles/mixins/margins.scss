@@ -6,19 +6,19 @@
             @if $classes ==nth($margins, $index) {
                 .#{$classes}-#{$i} {
                     @if $classes == 'margin-x' {
-                        margin-left: #{$i}px;
-                        margin-right: #{$i}px;
+                        margin-left: #{$i}px !important;
+                        margin-right: #{$i}px !important;
                     } @else if $classes == 'margin-y' {
-                        margin-top: #{$i}px;
-                        margin-bottom: #{$i}px;
+                        margin-top: #{$i}px !important;
+                        margin-bottom: #{$i}px !important;
                     } @else if $classes == 'margin-top' {
-                        margin-top: #{$i}px;
+                        margin-top: #{$i}px !important;
                     } @else if $classes == 'margin-left' {
-                        margin-left: #{$i}px;
+                        margin-left: #{$i}px !important;
                     } @else if $classes == 'margin-right' {
-                        margin-right: #{$i}px;
+                        margin-right: #{$i}px !important;
                     } @else if $classes == 'margin-bottom' {
-                        margin-bottom: #{$i}px;
+                        margin-bottom: #{$i}px !important;
                     } 
                 }
             }
@@ -29,19 +29,19 @@
                 @if $classes ==nth($margins, $index) {
                     .#{$classes}-mobile-#{$i} {
                         @if $classes == 'margin-x' {
-                            margin-left: #{$i}px;
-                            margin-right: #{$i}px;
+                            margin-left: #{$i}px !important;
+                            margin-right: #{$i}px !important;
                         } @else if $classes == 'margin-y' {
-                            margin-top: #{$i}px;
-                            margin-bottom: #{$i}px;
+                            margin-top: #{$i}px !important;
+                            margin-bottom: #{$i}px !important;
                         } @else if $classes == 'margin-top' {
-                            margin-top: #{$i}px;
+                            margin-top: #{$i}px !important;
                         } @else if $classes == 'margin-left' {
-                            margin-left: #{$i}px;
+                            margin-left: #{$i}px !important;
                         } @else if $classes == 'margin-right' {
-                            margin-right: #{$i}px;
+                            margin-right: #{$i}px !important;
                         } @else if $classes == 'margin-bottom' {
-                            margin-bottom: #{$i}px;
+                            margin-bottom: #{$i}px !important;
                         } 
                     }
                 }

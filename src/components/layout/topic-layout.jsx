@@ -1,6 +1,6 @@
-const TopicLayout = ({ content, sidebar }) => {
+const TopicLayout = ({ content, sidebar, classes }) => {
     return (
-        <div className="topics-layout">
+        <div className={`topics-layout ${classes}`}>
             <div className="card">
                 {content}
             </div>

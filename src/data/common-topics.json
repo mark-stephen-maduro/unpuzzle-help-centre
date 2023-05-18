@@ -1,13 +1,67 @@
 [
     {
+        "key": "account-creation",
         "icon": "account-creation.svg",
         "label": "Account Creation",
-        "path": "/account-creation"
+        "path": "/account-creation",
+        "topics": [
+            {
+                "label": "Two-Factor Authentication Set-Up",
+                "path": "/two-factor-auth"
+            },
+            {
+                "label": "Invalid Credentials Error",
+                "path": "#"
+            },
+            {
+                "label": "System Dashboard",
+                "path": "#"
+            },
+            {
+                "label": "New User Creation",
+                "path": "#"
+            },
+            {
+                "label": "Searching for Campaigns",
+                "path": "#"
+            },
+            {
+                "label": "Profile, Manage Contacts, Logout",
+                "path": "#"
+            }
+        ]
     },
     {
+        "key": "system-dashboard",
         "icon": "system-dashboard.svg",
         "label": "System Dashboard",
-        "path": ""
+        "path": "/system-dashboard",
+        "topics": [
+            {
+                "label": "Two-Factor Authentication Set-Up",
+                "path": "/two-factor-auth"
+            },
+            {
+                "label": "Create Campaign",
+                "path": "#"
+            },
+            {
+                "label": "SMS",
+                "path": "#"
+            },
+            {
+                "label": "New User Creation",
+                "path": "#"
+            },
+            {
+                "label": "Searching for Campaigns",
+                "path": "#"
+            },
+            {
+                "label": "Profile, Manage Contacts, Logout",
+                "path": "#"
+            }
+        ]
     },
     {
         "icon": "profile-manage-contacts-logout.svg",
@@ -15,9 +69,36 @@
         "path": ""
     },
     {
+        "key": "two-factor-auth",
         "icon": "two-factor-auth.svg",
         "label": "Two-Factor Authentication",
-        "path": ""
+        "path": "/two-factor-auth",
+        "topics": [
+            {
+                "label": "Billing",
+                "path": "#"
+            },
+            {
+                "label": "Invalid Credentials Error",
+                "path": "/invalid-credentials"
+            },
+            {
+                "label": "System Dashboard",
+                "path": "/system-dashboard"
+            },
+            {
+                "label": "New User Creation",
+                "path": "#"
+            },
+            {
+                "label":"Searching for Campaigns",
+                "path": "#"
+            },
+            {
+                "label": "Profile, Manage Contacts, Logout",
+                "path": "#"
+            }
+        ]
     },
     {
         "icon": "new-user.svg",
@@ -30,9 +111,36 @@
         "path": ""
     },
     {
+        "key": "invalid-credentials",
         "icon": "invalid-credential.svg",
         "label": "Invalid Credentials Error",
-        "path": ""
+        "path": "/invalid-credentials",
+        "topics": [
+            {
+                "label": "Two-Factor Authentication Set-Up",
+                "path": "/two-factor-auth"
+            },
+            {
+                "label": "Create Campaign",
+                "path": "#"
+            },
+            {
+                "label": "System Dashboard",
+                "path": "#"
+            },
+            {
+                "label": "New User Creation",
+                "path": "#"
+            },
+            {
+                "label": "Searching for Campaigns",
+                "path": "#"
+            },
+            {
+                "label": "Profile, Manage Contacts, Logout",
+                "path": "#"
+            }
+        ]
     },
     {
         "icon": "searching-campaigns.svg",

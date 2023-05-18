@@ -1,3 +1,5 @@
+import Topics from "../data/common-topics.json"
+
 export const addClassesWhenInViewport = (element, classNames) => {
     function isElementInViewport(el) {
         var rect = el.getBoundingClientRect();
@@ -19,4 +21,14 @@ export const addClassesWhenInViewport = (element, classNames) => {
 
     // Add the scroll event listener
     window.addEventListener("scroll", handleScroll);
+}
+
+export const getHelpfulTopics = () => {
+    function handleUrlSplice() {
+        return window.location.pathname.split('/')[window.location.pathname.split('/').length - 1];
+    }
+
+    const topics = Topics.filter(topic => topic.key === handleUrlSplice())
+
+    return topics.length ? topics[0] : [];
 }
