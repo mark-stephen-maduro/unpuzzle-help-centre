@@ -12,7 +12,7 @@ const SideBar = ({ data }) => {
                 {
                     !Array.isArray(data) && <>
                         {data.topics.map((topic, index) => <li key={index}>
-                            <Link to={`/topic${topic.path}`}><p>{topic.label}</p></Link>
+                            <Link to={`/unpuzzle-help-centre/topic${topic.path}`}><p>{topic.label}</p></Link>
                         </li>)}
                     </>
                 }

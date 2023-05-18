@@ -3,11 +3,11 @@
         "key": "account-creation",
         "icon": "account-creation.svg",
         "label": "Account Creation",
-        "path": "/unpuzzle-help-centre/account-creation",
+        "path": "/account-creation",
         "topics": [
             {
                 "label": "Two-Factor Authentication Set-Up",
-                "path": "/unpuzzle-help-centre/two-factor-auth"
+                "path": "/two-factor-auth"
             },
             {
                 "label": "Invalid Credentials Error",
@@ -35,11 +35,11 @@
         "key": "system-dashboard",
         "icon": "system-dashboard.svg",
         "label": "System Dashboard",
-        "path": "/unpuzzle-help-centre/system-dashboard",
+        "path": "/system-dashboard",
         "topics": [
             {
                 "label": "Two-Factor Authentication Set-Up",
-                "path": "/unpuzzle-help-centre/two-factor-auth"
+                "path": "/two-factor-auth"
             },
             {
                 "label": "Create Campaign",
@@ -72,7 +72,7 @@
         "key": "two-factor-auth",
         "icon": "two-factor-auth.svg",
         "label": "Two-Factor Authentication",
-        "path": "/unpuzzle-help-centre/two-factor-auth",
+        "path": "/two-factor-auth",
         "topics": [
             {
                 "label": "Billing",
@@ -80,11 +80,11 @@
             },
             {
                 "label": "Invalid Credentials Error",
-                "path": "/unpuzzle-help-centre/invalid-credentials"
+                "path": "/invalid-credentials"
             },
             {
                 "label": "System Dashboard",
-                "path": "/unpuzzle-help-centre/system-dashboard"
+                "path": "/system-dashboard"
             },
             {
                 "label": "New User Creation",
@@ -114,11 +114,11 @@
         "key": "invalid-credentials",
         "icon": "invalid-credential.svg",
         "label": "Invalid Credentials Error",
-        "path": "/unpuzzle-help-centre/invalid-credentials",
+        "path": "/invalid-credentials",
         "topics": [
             {
                 "label": "Two-Factor Authentication Set-Up",
-                "path": "/unpuzzle-help-centre/two-factor-auth"
+                "path": "/two-factor-auth"
             },
             {
                 "label": "Create Campaign",
