@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/unpuzzle-help-centre/static/css/main.21fddaca.css",
-    "main.js": "/unpuzzle-help-centre/static/js/main.589e5508.js",
+    "main.js": "/unpuzzle-help-centre/static/js/main.c291b373.js",
     "static/js/787.690d59ef.chunk.js": "/unpuzzle-help-centre/static/js/787.690d59ef.chunk.js",
     "static/media/hero-bg.png": "/unpuzzle-help-centre/static/media/hero-bg.4faf1bdb926d71e219ac.png",
     "static/media/account-creation-password-link.png": "/unpuzzle-help-centre/static/media/account-creation-password-link.60d80af669319c32d65f.png",
@@ -15,11 +15,11 @@
     "static/media/info.svg": "/unpuzzle-help-centre/static/media/info.d0bab2a6f7a095f73279.svg",
     "index.html": "/unpuzzle-help-centre/index.html",
     "main.21fddaca.css.map": "/unpuzzle-help-centre/static/css/main.21fddaca.css.map",
-    "main.589e5508.js.map": "/unpuzzle-help-centre/static/js/main.589e5508.js.map",
+    "main.c291b373.js.map": "/unpuzzle-help-centre/static/js/main.c291b373.js.map",
     "787.690d59ef.chunk.js.map": "/unpuzzle-help-centre/static/js/787.690d59ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.21fddaca.css",
-    "static/js/main.589e5508.js"
+    "static/js/main.c291b373.js"
   ]
 }
