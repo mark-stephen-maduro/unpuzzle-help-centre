@@ -31,6 +31,14 @@
             grid-column-end: $i !important;
         }
     }
+
+    @media (max-width: $mobile) {
+        @for $i from 1 through 20 {
+            &-span-mobile-#{$i} {
+                grid-column: span $i !important;
+            }
+        }
+    }
 }
 
 // Spacing

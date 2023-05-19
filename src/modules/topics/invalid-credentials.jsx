@@ -1,6 +1,7 @@
 import React from "react";
 import GridLayout from "../../components/layout/grid-layout";
 import useScrollToTop from "../../hooks/useScrollToTop";
+import useDocumentTitle from "../../hooks/useDocumentTitle";
 
 import '../../assets/styles/components/topics.scss';
 import TopicLayout from "../../components/layout/topic-layout";
@@ -12,6 +13,7 @@ import { getHelpfulTopics } from "../../utils";
 
 const AccountCreationTopic = () => {
     useScrollToTop();
+    useDocumentTitle(`${process.env.REACT_APP_PAGE_TITLE} - Invalid Credentials Error`);
 
     const Card = () => {
         return (
